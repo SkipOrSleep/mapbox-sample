@@ -16,7 +16,7 @@ mapbox-sample
 
 docker-composeにより起動できますが、各種モジュールは手動インストールが必要です：
 ```shell-session
-$ git clone <>
+$ git clone https://github.com/SkipOrSleep/mapbox-sample.git
 $ cd mapbox-sample
 $ docker-compose -f docker-compose.yml build mapbox-sample
 $ docker-compose -f docker-compose.yml up -d mapbox-sample
