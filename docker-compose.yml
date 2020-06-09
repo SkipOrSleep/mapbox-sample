@@ -1,0 +1,19 @@
+version: '2.0'
+
+services:
+    # MAPBOX SAMPLE ENVIRONMENT
+    mapbox-sample:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: mapbox-sample
+        volumes:
+          - .:/opt/mapbox-sample
+        working_dir: /opt/mapbox-sample
+        container_name: mapbox-sample
+        hostname: mapbox-sample
+        tty: true
+        restart: always
+        command: /bin/bash -c "cd mapbox-sample && yarn start"
+        ports:
+          - "3000:3000"

@@ -1,0 +1,18 @@
+.App {
+  text-align: left;
+  min-height: calc(100vh - 64px);
+  min-width: 100vw;
+}
+
+.mapContainer {
+    width: calc(100% - 20px);
+    height: 60vh;
+    margin: 10px;
+}
+
+.attributionContainer {
+  text-align: center;
+  width: calc(100% - 20px);
+  height: auto;
+  margin: 10px;
+}
