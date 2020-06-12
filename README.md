@@ -22,5 +22,6 @@ $ docker-compose -f docker-compose.yml build mapbox-sample
 $ docker-compose -f docker-compose.yml up -d mapbox-sample
 $ docker-compose -f docker-compose.yml exec mapbox-sample /bin/bash
 $ cd mapbox-sample
-$ npm install react-router-dom react-responsive leaflet react-leaflet leaflet-control-geocoder mapbox-gl circle-to-polygon @material-ui/core
+$ yarn install
+$ yarn upgrade
 ```
